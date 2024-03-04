@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mijn CV</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <ul style="text-align: center;">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mijncv.html">Mijn ervaring</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </header>
+        <form id="contact" action="https://formspree.io/f/mvoeraln" method="post">
+            <fieldset id="fieldsetcontact">
+                <legend>Contact</legend><br>
+                <label for="voornaam">Voornaam:</label>
+                <input id="voornaam" type="text" name="Voornaam"><br><br>
+                <label for="achternaam">Achternaam:</label>
+                <input id="achternaam" type="text" name="Achternaam"><br><br>  
+                <label for="telefoonnummer">Telefoonnummer:</label>
+                <input id="telefoonnummer" type="text" name="Telefoonnummer"><br><br>
+                <label for="e-mailadres">E-mailadres:</label>
+                <input id="e-mailadres" type="text" name="E-mailadres"><br><br>
+                <a>Bericht:</a><br>
+                <textarea name="bericht" maxlength="1500"></textarea><br><br>
+            </fieldset><br>
+            <input type="submit" value="Verzend" class="button">
+        </form>
+        <footer>Copyright Joëlle den Blaauwen 2024</footer>
+    </body>
+</html>
